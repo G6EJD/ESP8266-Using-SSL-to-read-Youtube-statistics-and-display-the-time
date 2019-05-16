@@ -211,39 +211,5 @@ void UpdateLocalTime(){
   time_str = output;
 }
 
-/*
-Starting retrieval
-GET https://www.googleapis.com/youtube/v3/channels?part=statistics&id=UCgtlqH_lkMdIa4jZLItcsTg&key=AIzaSyCCZzWgQmOxi22fw62tV4svKsd80s6QwgM
-{
- "kind": "youtube#channelListResponse",
- "etag": "\"uQc-MPTsstrHkQcRXL3IWLmeNsM/Qw_ZMi8fDgIj489XhPZ0UTKE2AI\"",
- "pageInfo": {
-  "totalResults": 1,
-  "resultsPerPage": 1
- },
- "items": [
-  {
-   "kind": "youtube#channel",
-   "etag": "\"uQc-MPTsstrHkQcRXL3IWLmeNsM/FGa0jQQLsyWUML-Hixqo1OmwfJQ\"",
-   "id": "xxxxxxxxxxxxxxxxxxxxxxxx",
-   "statistics": {
-    "viewCount": "129292",
-    "commentCount": "0",
-    "subscriberCount": "713",
-    "hiddenSubscriberCount": false,
-    "videoCount": "55"
-   }
-  }
- ]
-}
-
----------Stats---------
-Subscriber Count: 713
-      View Count: 129292
-   Comment Count: 0
-     Video Count: 55
-------------------------
-
-*/
 
 
