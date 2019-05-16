@@ -181,36 +181,3 @@ String GetRequestFromYoutube(String request) {
   }
   return body;
 }
-
-/*
-Starting retrieval
-
-{
- "pageInfo": {
-  "totalResults": 1,
-  "resultsPerPage": 1
- },
- "items": [
-  {
-   "kind": "youtube#channel",
-   "etag": "\"uQc-MPTsstrHkQcRXL3IWLmeNsM/FGa0jQQLsyWUML-Hixqo1OmwfJQ\"",
-   "id": "xxxxxxxxxxxxxxxxxxxxxxxx",
-   "statistics": {
-    "viewCount": "129292",
-    "commentCount": "0",
-    "subscriberCount": "713",
-    "hiddenSubscriberCount": false,
-    "videoCount": "55"
-   }
-  }
- ]
-}
-
----------Stats---------
-Subscriber Count: 713
-      View Count: 129292
-   Comment Count: 0
-     Video Count: 55
-------------------------
-
-*/
