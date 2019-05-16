@@ -184,10 +184,8 @@ String GetRequestFromYoutube(String request) {
 
 /*
 Starting retrieval
-GET https://www.googleapis.com/youtube/v3/channels?part=statistics&id=UCgtlqH_lkMdIa4jZLItcsTg&key=AIzaSyCCZzWgQmOxi22fw62tV4svKsd80s6QwgM
+
 {
- "kind": "youtube#channelListResponse",
- "etag": "\"uQc-MPTsstrHkQcRXL3IWLmeNsM/Qw_ZMi8fDgIj489XhPZ0UTKE2AI\"",
  "pageInfo": {
   "totalResults": 1,
   "resultsPerPage": 1
